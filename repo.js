@@ -8,10 +8,10 @@ const octokit = new Octokit({
 });
 
 await octokit.request("POST /user/repos", {
-    name: "Hello-World2",
+    name: "Hello-World333",
     description: "This is your first repo!",
     homepage: "https://github.com",
-    private: false,
+    private: true,
     is_template: false,
     headers: {
         "X-GitHub-Api-Version": "2022-11-28",
